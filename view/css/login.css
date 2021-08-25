@@ -1,0 +1,72 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.miolo{
+    padding-bottom: 100px;
+}
+.dados{
+    width: 48%;
+    padding-right: 2%;
+}
+.press{
+    width: 48%;
+    padding-left: 2%;
+}
+button{
+    border-radius: 50px;
+    padding: 15px 20px;
+    width: 100%;
+    color: white;
+    margin: 0;
+    border: none;
+    box-shadow: 1px 1px 1px #56565663;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: .9em;
+    outline: 0;
+    cursor: pointer;
+}
+span{
+    color: rgb(255, 153, 0);
+}
+.texto{
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+}
+.entrar{
+    background-color: #16a575;
+}
+.cadastro{
+    background-color: #a56716;
+}
+label{
+    font-size: 12pt;
+    color: rgb(6, 112, 6);
+    letter-spacing: 1px;
+}
+.footer{
+    margin-top: 100px;
+}
+@media (max-width: 770px){
+    .dados, .press{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .miolo{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@media (max-width: 990px){
+    .miolo{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

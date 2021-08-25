@@ -1,0 +1,60 @@
+.card{
+    width: 45%;
+    background-color: rgb(226, 223, 223);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #c6c6c6;
+}
+.destaque{
+    width: 90%;
+    margin: 10px auto;
+    background: #2ce0a4;
+    color: rgb(41, 43, 42);
+    padding: .4rem;
+    text-align: center;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+    font-size: 12pt;
+    letter-spacing: .8pt;
+}
+.prioridade{
+    width: 90%;
+    margin: 10px auto;
+    background: #ddd2b2;
+    color: rgb(41, 43, 42);
+    padding: .4rem;
+    text-align: center;
+    position: relative;
+    border-radius: 0 0 8px 8px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(184, 111, 16);
+    border-bottom-width: 4px ;
+    font-size: 12pt;
+    letter-spacing: .8pt;
+}
+.boaVinda{
+    color: #eb8705;
+    font-size: 20px;
+}
+.descri{
+    color: rgb(110, 110, 110);
+    letter-spacing: 1px;
+    font-size: 10pt;
+}
+.footer{
+    margin-top: 110px;
+}
+@media (max-width: 750px) {
+    .card{
+        width: 95%;
+    }
+    .miolo{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media (max-width: 990px){
+    .miolo{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
