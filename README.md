@@ -1,6 +1,6 @@
 <h1 align="center">Cadastro de vacinação</h1>
 
-<p align="center">Esse é um projeto recorende a uma atividade do meu curso de programalçao WEB, do qual era necessario fazer consultas e manipulação de dados de um banoc de dados</p>
+<p align="center">Esse é um projeto recorende a uma atividade do meu curso de programalçao WEB, do qual era necessario fazer consultas e manipulação de dados de um banco de dados</p>
 
 <p align="center">
  <a href="#caracteristicas">Características</a> •
